@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffff00"
+    tools:context=".DetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img_full_thumbnail"
+            style="@style/ImageThumbnail"
+            tools:ignore="ContentDescription"
+            tools:src="@tools:sample/backgrounds/scenic" />
+
+        <TextView
+            style="@style/TextModifier"
+            android:layout_marginTop="12dp"
+            android:text="@string/region_information"
+            android:textAppearance="?attr/textAppearanceHeadline6"
+            android:textStyle="bold" />
+
+        <View
+            style="@style/HorizontalLine"
+            android:background="?android:attr/listDivider" />
+
+        <com.google.android.material.card.MaterialCardView style="@style/DetailCardView">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#b2ff59">
+
+                <TableLayout style="@style/TableLayout">
+
+                    <TableRow style="@style/TableRow">
+
+                        <TextView
+                            style="@style/TextDetail.Field"
+                            android:text="@string/professor" />
+
+                        <TextView
+                            style="@style/TextDetail.Field"
+                            android:text="@string/colon" />
+
+                        <TextView
+                            android:id="@+id/tv_professor_value"
+                            style="@style/TextDetail.Value"
+                            android:text="@string/professor_value" />
+                    </TableRow>
+
+                    <TableRow style="@style/TableRow">
+
+                        <TextView
+                            style="@style/TextDetail.Field"
+                            android:text="@string/number_of_pokemon" />
+
+                        <TextView
+                            style="@style/TextDetail.Field"
+                            android:text="@string/colon" />
+
+                        <TextView
+                            android:id="@+id/tv_number_of_pokemon_value"
+                            style="@style/TextDetail.Value"
+                            android:text="@string/number_of_pokemon_value" />
+                    </TableRow>
+
+                    <TableRow style="@style/TableRow">
+
+                        <TextView
+                            style="@style/TextDetail.Field"
+                            android:text="@string/starter_pokemon" />
+
+                        <TextView
+                            style="@style/TextDetail.Field"
+                            android:text="@string/colon" />
+
+                        <TextView
+                            android:id="@+id/tv_starter_pokemon_value"
+                            style="@style/TextDetail.Value"
+                            android:text="@string/starter_pokemon_value" />
+                    </TableRow>
+
+                    <TableRow style="@style/TableRow">
+
+                        <TextView
+                            style="@style/TextDetail.Field"
+                            android:text="@string/rivals" />
+
+                        <TextView
+                            style="@style/TextDetail.Field"
+                            android:text="@string/colon" />
+
+                        <TextView
+                            android:id="@+id/tv_rivals_value"
+                            style="@style/TextDetail.Value"
+                            android:text="@string/rivals_value" />
+                    </TableRow>
+
+                    <TableRow style="@style/TableRow">
+
+                        <TextView
+                            style="@style/TextDetail.Field"
+                            android:text="@string/crime_organization" />
+
+                        <TextView
+                            style="@style/TextDetail.Field"
+                            android:text="@string/colon" />
+
+                        <TextView
+                            android:id="@+id/tv_crime_organization_value"
+                            style="@style/TextDetail.Value"
+                            android:text="@string/crime_organization_value" />
+                    </TableRow>
+
+                    <TableRow style="@style/TableRow">
+
+                        <TextView
+                            style="@style/TextDetail.Field"
+                            android:text="@string/anime_saga" />
+
+                        <TextView
+                            style="@style/TextDetail.Field"
+                            android:text="@string/colon" />
+
+                        <TextView
+                            android:id="@+id/tv_anime_saga_value"
+                            style="@style/TextDetail.Value"
+                            android:text="@string/anime_saga_value" />
+                    </TableRow>
+
+                    <TableRow style="@style/TableRow">
+
+                        <TextView
+                            style="@style/TextDetail.Field"
+                            android:text="@string/manga_arcs" />
+
+                        <TextView
+                            style="@style/TextDetail.Field"
+                            android:text="@string/colon" />
+
+                        <TextView
+                            android:id="@+id/tv_manga_arcs_value"
+                            style="@style/TextDetail.Value"
+                            android:text="@string/manga_arcs_value" />
+                    </TableRow>
+                </TableLayout>
+
+            </RelativeLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            style="@style/TextModifier"
+            android:layout_marginTop="12dp"
+            android:text="@string/region"
+            android:textAppearance="?attr/textAppearanceHeadline6"
+            android:textStyle="bold" />
+
+        <View
+            style="@style/HorizontalLine"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:id="@+id/tv_region_value"
+            style="@style/TextModifier"
+            android:layout_marginTop="12dp"
+            android:text="@string/region_value" />
+
+        <TextView
+            style="@style/TextModifier"
+            android:layout_marginTop="12dp"
+            android:text="@string/cities_and_towns"
+            android:textAppearance="?attr/textAppearanceHeadline6"
+            android:textStyle="bold" />
+
+        <View
+            style="@style/HorizontalLine"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:id="@+id/tv_cities_and_towns_value"
+            style="@style/TextModifier"
+            android:layout_marginTop="12dp"
+            android:text="@string/cities_and_towns_value" />
+
+        <TextView
+            style="@style/TextModifier"
+            android:layout_marginTop="12dp"
+            android:text="@string/island"
+            android:textAppearance="?attr/textAppearanceHeadline6"
+            android:textStyle="bold" />
+
+        <View
+            style="@style/HorizontalLine"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:id="@+id/tv_island_value"
+            style="@style/TextModifier"
+            android:layout_marginTop="12dp"
+            android:text="@string/island_value" />
+
+        <TextView
+            style="@style/TextModifier"
+            android:layout_marginTop="12dp"
+            android:text="@string/other_locations"
+            android:textAppearance="?attr/textAppearanceHeadline6"
+            android:textStyle="bold" />
+
+        <View
+            style="@style/HorizontalLine"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:id="@+id/tv_other_locations_value"
+            style="@style/TextModifier"
+            android:layout_marginTop="12dp"
+            android:text="@string/other_locations_value" />
+
+        <TextView
+            style="@style/TextModifier"
+            android:layout_marginTop="12dp"
+            android:text="@string/areas_of_interest"
+            android:textAppearance="?attr/textAppearanceHeadline6"
+            android:textStyle="bold" />
+
+        <View
+            style="@style/HorizontalLine"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:id="@+id/tv_areas_of_interest_value"
+            style="@style/TextModifier"
+            android:layout_marginTop="12dp"
+            android:text="@string/areas_of_interest_value" />
+
+        <TextView
+            style="@style/TextModifier"
+            android:layout_marginTop="12dp"
+            android:text="@string/landmarks"
+            android:textAppearance="?attr/textAppearanceHeadline6"
+            android:textStyle="bold" />
+
+        <View
+            style="@style/HorizontalLine"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:id="@+id/tv_landmarks_value"
+            style="@style/TextModifier"
+            android:layout_marginTop="12dp"
+            android:text="@string/landmarks_value" />
+
+        <TextView
+            style="@style/TextModifier"
+            android:layout_marginTop="12dp"
+            android:text="@string/places_of_interest"
+            android:textAppearance="?attr/textAppearanceHeadline6"
+            android:textStyle="bold" />
+
+        <View
+            style="@style/HorizontalLine"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:id="@+id/tv_places_of_interest_value"
+            style="@style/TextModifier"
+            android:layout_marginTop="12dp"
+            android:text="@string/places_of_interest_value" />
+
+        <TextView
+            style="@style/TextModifier"
+            android:layout_marginTop="12dp"
+            android:text="@string/references"
+            android:textAppearance="?attr/textAppearanceHeadline6"
+            android:textStyle="bold" />
+
+        <View
+            style="@style/HorizontalLine"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:id="@+id/tv_references_value"
+            style="@style/TextModifier"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="48dp"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:text="@string/references_value" />
+
+    </LinearLayout>
+
+</ScrollView>
