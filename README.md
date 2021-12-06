@@ -1,7 +1,9 @@
 # simple-recyclerview-app
-Apps that use RecyclerView
+An application that uses RecyclerView
 
 https://www.dicoding.com/academies/51
+
+Download this app: https://cloud.degoo.com/share/fErVfK78sNArvqVcHoU7Mg
 
 ## Screenshots
 <img src="assets/Splash.png"
