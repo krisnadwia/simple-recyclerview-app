@@ -3,7 +3,7 @@ An application that uses RecyclerView
 
 https://www.dicoding.com/academies/51
 
-Download this app: https://cloud.degoo.com/share/fErVfK78sNArvqVcHoU7Mg
+Download this app: https://drive.google.com/drive/folders/1xOyN0Dw4bLgfL9yzWJhCgHP0MZ9EjXsR?usp=share_link
 
 ## Screenshots
 <img src="assets/Splash.png"
